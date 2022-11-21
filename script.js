@@ -5,7 +5,6 @@ let text = document.getElementById('text');
         let rocks = document.getElementById('rocks');
         let forest = document.getElementById('forest');
         let water = document.getElementById('water');
-        let header = document.getElementById('header');
         
         window.addEventListener('scroll', function() {
             let value = window.scrollY;
@@ -18,8 +17,10 @@ let text = document.getElementById('text');
             btn.style.marginTop = value * 1.5 + 'px';
             rocks.style.top = value * -.12 + 'px';
             forest.style.top = value * .25 + 'px';
-            header.style.top = value * .5 + 'px';
         })
+
+
+
 
 
         const panels = document.querySelectorAll('.panel')
@@ -43,6 +44,10 @@ let text = document.getElementById('text');
 
 
 
+        const darkToggle = document.querySelector('#darkMode');
+        darkToggle.addEventListener('click', ()=> {
 
-
-        
+        document.querySelector("h2").classList.toggle('dark-mode')
+        document.querySelector("#night").style = "display:block;";
+       
+        });

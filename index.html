@@ -9,10 +9,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>Portfolio parallax</title>
 </head>
-<body>    
+<body>   
+    <div class="toggleWrapper">
+        <input type="checkbox" class="dn" id="dn"/>
+        <label for="dn" class="toggle" id="darkMode">
+          <span class="toggle__handler">
+            <span class="crater crater--1"></span>
+            <span class="crater crater--2"></span>
+            <span class="crater crater--3"></span>
+          </span>
+          <span class="star star--1"></span>
+          <span class="star star--2"></span>
+          <span class="star star--3"></span>
+          <span class="star star--4"></span>
+          <span class="star star--5"></span>
+          <span class="star star--6"></span>
+        </label>
+      </div> 
     
     <section>
-        <img  src="https://s.electerious.com/parallaxscene/p0.png"> 
+        <img id="day" src="https://s.electerious.com/parallaxscene/p0.png"> 
+        <img id="night" src="https://wallpaperaccess.com/full/1761719.jpg"> 
         <h2 id="text">Ciao! <br> Sono Jessica Vitanza, <br> <span>benvenuti nel mio portfolio.</span></h2>
         <img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png" id="bird1">
         <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png" id="bird2">
@@ -24,7 +41,7 @@
         <img src="https://user-images.githubusercontent.com/65358991/170092616-5a70c4af-2eed-496f-bde9-b5fcc7142a31.png" id="water">
     </section>
     
-    <div class="sec">
+    <div id="sec" class="sec">
         <div class="intro">
             <div class="intro-text">
                 <h2>CHI SONO</h2>
@@ -36,8 +53,8 @@
             Mi piace esplorare, dalla natura agli sport; <br>
     Spesso mi metto alla prova per scoprire ed eventualmente superare i miei limiti mentali e fisici. <br>
     Pratico diverse discipline che mi avvicinano molto alla natura, come Surf e Snowboard. <br>
-    Amo e rispetto il mondo che mi circonda e da qualche anno ho intrapreso uno stile di vita più green e sostenibile che include <br>
-    alimentazione solo a base vegetale (Vegan), attività di volontariato quali pulizia di spiaggia dai rifiuti o portare da mangiare ai rifugi <br> di animali 
+    Amo e rispetto il mondo che mi circonda e da qualche anno ho intrapreso uno stile di vita più green e sostenibile che include
+    alimentazione solo a base vegetale (Vegan), attività di volontariato quali pulizia di spiaggia dai rifiuti o portare da mangiare ai rifugi di animali 
     e in generale provo ad avere uno stile di vita che sia il meno inquinante possibile sia in casa che fuori nei mei spostamenti.
           </p>
             </div>
@@ -62,15 +79,73 @@
             <div class="panel" style="background-image: url('./assets/Schermata\ 2022-10-20\ alle\ 16.23.12.png')">
               <h3>CUCINA VEGAN</h3>
             </div>
-            <div class="panel" style="background-image: url('./assets/Schermata\ 2022-10-20\ alle\ 16.24.47.png')">
+            <div class="panel" style="background-image: url('./assets/Schermata\ 2022-11-20\ alle\ 23.25.43.png')">
                 <h3>MUSICA</h3>
               </div>
           </div>
+
+
+          <div class="formazione">
+            <h2>FORMAZIONE</h2>
+            <p>• Liceo Scientifico Statale Benedetto Croce, Palermo 2014 : Diploma scientifico.
+                <br> <br>
+                Avendo alle spalle 15 anni di nuoto agonistico e vari titoli regionali e nazionali, decido di dedicare la mia vita allo sport. <br>
+Così come l'attività fisica mi ha fatto tornare alla vita normale e reso mentalmente più forte, ho deciso di aiutare gli altri e intraprendere un percorso formativo
+su più discipline complementari: <br> 
+• NonSoloFitness, Palermo, 2020 : Istruttore di Bodybuilding 1° liv. <br>
+• Calisthenics S.D a.r.l, Palermo, 2019 : Istruttore di Calisthenics <br>
+• Mondello Fitness, Palermo, 2019 : Istruttore di Power Yoga <br>
+• Federazione Italiana Nuoto, Palermo, 2014 : Assistente bagnanti <br> <br>
+
+Durante il periodo di lockdown, girovagando su internet, scopro il mondo della programmazione; <br>
+Successivamente decido di prendere sul serio questa figura professionale e seguire dei corsi specifici: <br> 
+
+• Edgemony, Coding Bootcamp online, 22 : Front-end Developer <br>
+• Axia Formazione, Genova, 2022 : Tecnico Programmatore Front-end <br>
+• Job Formazione, FAD, 2021 : User Interface Designer
+            </p>
+            </div>
+
+            <div class="progetti">
+                <h2>PROGETTI</h2>
+            </div>
+
+            <div class="competenze">
+                <h2>COMPETENZE</h2>
+                <p>HTML - CSS - JavaScript - Bootstrap - Angular - React - Node js - Visual Studio Code - GitHub - Adobe Photoshop - Adobe Illustrator - Adobe XD</p>
+            </div>
+
+            <div class="esperienze">
+                <h2>ESPERIENZE LAVORATIVE</h2>
+                <p>
+                    • VFP1 Esercito Italiano, Roma 2015.03 - 2017.03 <br> 
+Esperienza lavorativa che ha cambiato la mia vita, in quanto mi sono infortunata a lavoro rompendomi il ginocchio (legamento crociato e menisco)
+e dopo essermi operata non ho potuto più svolgere questo lavoro, nè altri nelle forze armate in quanto il mio infortunio non è compatibile con l'idoneità fisica richiesta..
+<br> Sicura delle mie capacità fisiche, dopo mesi di stop, post fisioterapia, ritorno ad allenarmi e intraprendo una nuova carriera. <br> <br>
+• Istruttore Di Bodybuilding Iron Gym, Cairo Montenotte 2021.09 - 2022.03 <br>
+• Istruttore Di Nuoto - Tirocinio Hydra Sport, Palermo 2020.09 - 2021.06 <br>
+• Istruttore Di Calisthenics Hydra Sport, Palermo 2020.09 - 2021.06 <br>
+• Istruttore Di Bodybuilding Hydra Sports, Palermo 2020.09 - 2021.06 <br>
+• Assistente Bagnanti Hydra Sport, Palermo 2020.09 - 2021.06 <br>
+• Istruttore Di Calisthenics Sprint Sport Center, Palermo 2019.09 - 2020.07 <br>
+• Segretaria Iron Gym, Cairo Montenotte 2021.09 - 2022.03 <br>
+• Commessa Mediaworld, Palermo 2018.08 - 2019.07 <br>
+• Commessa McDonald's, L'Aquila 2018.05 - 2018.08 
+                </p>
+            </div>
+
+           
+
+
+
     </div>
     
     <footer>
-        Privacy <br>
-        Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003.    
+        <div> Privacy <br>
+            Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003.    </div>
+       <div> Contatti <br>
+    Mail : Tel : Linkedin : Instagram :
+    </div>
     </footer>
 
     <script src="./script.js"></script>
