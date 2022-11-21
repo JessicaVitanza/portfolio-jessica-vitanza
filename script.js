@@ -2,12 +2,14 @@
         let rocks = document.getElementById('rocks');
         let forest = document.getElementById('forest');
         let water = document.getElementById('water');
+        let mountain = document.getElementById('mountain');
         
         window.addEventListener('scroll', function() {
             let value = window.scrollY;
             
             rocks.style.top = value * -.12 + 'px';
             forest.style.top = value * .25 + 'px';
+            mountain.style.top = value * .65 + 'px';
         })
 
 

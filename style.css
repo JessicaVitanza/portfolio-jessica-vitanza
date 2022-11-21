@@ -58,6 +58,7 @@ section img {
     pointer-events: none;
 }
 
+
 section #text {
     color: var(--primary);
     font-size: 3rem;
@@ -156,14 +157,14 @@ footer {
 }
   
   .panel {
-    background-size: cover;
+    background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
     height: 500px;
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
-    flex: 0.5;
+    flex: 0.4;
     margin: 10px;
     position: relative;
     -webkit-transition: all 800ms ease-in;
