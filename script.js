@@ -38,7 +38,7 @@
         const darkToggle = document.querySelector('#darkMode');
         darkToggle.addEventListener('click', ()=> {
 
-        // document.querySelector("h2").classList.toggle('dark-mode')
+         document.querySelector("h2").classList.toggle('dark-mode')
         document.querySelector("#night").style = "display:block;";
         document.querySelector("#text").style = "color: white;";
       

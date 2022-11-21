@@ -406,6 +406,7 @@ footer {
 
   .dark-mode {
       color: #042b3c;
+      display: block;
   }
 
   #night {
