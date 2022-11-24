@@ -457,3 +457,7 @@ footer {
   #night {
       display: none;
   }
+
+  .dark-mode {
+    display: block;
+  }

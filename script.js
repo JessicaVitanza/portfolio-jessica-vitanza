@@ -1,4 +1,4 @@
-
+        // parallax background
         let rocks = document.getElementById('rocks');
         let forest = document.getElementById('forest');
         let water = document.getElementById('water');
@@ -13,9 +13,7 @@
         })
 
 
-
-
-
+        // expanding card
         const panels = document.querySelectorAll('.panel')
 
         panels.forEach((panel) => {
@@ -32,16 +30,11 @@
         }
 
 
-
-
-
-
-
+        // dark mode background
         const darkToggle = document.querySelector('#darkMode');
         darkToggle.addEventListener('click', ()=> {
 
-         document.querySelector("h2").classList.toggle('dark-mode')
-        document.querySelector("#night").style = "display:block;";
-        document.querySelector("#text").style = "color: white;";
+         document.querySelector("#night").classList.add('dark-mode');
+  
       
         });
