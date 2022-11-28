@@ -17,10 +17,32 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 scroll-behavior: smooth;
 transition: all 2s;
+
 }
 
 h2, p {
     color: #fff;
+}
+
+.container-span {
+  font-weight: 200;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: -120px;
+}
+
+.container-span span {
+  animation: letterWave .8s ease-in-out infinite alternate;
+  animation-delay: calc(var(--order) * 100ms);  
+}
+
+@keyframes letterWave {
+  to { 
+    font-weight: 700;
+  letter-spacing: -5px;
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+  }
 }
 
 section {
@@ -171,15 +193,21 @@ footer {
     -webkit-transition: all 800ms ease-in;
    
   }
-  
+
   .panel h3 {
     font-size: 24px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    top: 20px;
     margin: 0;
     opacity: 0;
   }
+
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+    border-radius: 50px; 
+  }
+
   
   .panel.active {
     flex: 3;
@@ -188,12 +216,24 @@ footer {
 
   .natura {
       background-position: bottom;
+      position: relative;
   }
-  
-  .panel.active h3 {
+
+  /* .sport::before{
+    content: 'ciao';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity .2s ease;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sport:hover::before {
     opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
-  }
+    transition: opacity .2s ease;
+    border-radius: 50px;
+  } */
 
   .formazione,
   .esperienze, 
