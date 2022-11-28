@@ -20,6 +20,12 @@ transition: all 2s;
 --cbz: cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+.myname {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h2, p {
     color: #fff;
 }
@@ -33,8 +39,8 @@ h2, p {
 }
 
 .container-span span {
-  animation: letterWave .8s ease-in-out infinite alternate;
-  animation-delay: calc(var(--order) * 100ms);  
+  animation: letterWave .9s ease-in-out infinite alternate;
+  animation-delay: calc(var(--order) * 200ms);  
   color: #fff;
 }
 
@@ -42,8 +48,8 @@ h2, p {
   to { 
     font-weight: 700;
   letter-spacing: -5px;
-  font-size: 3.2rem;
-  letter-spacing: 2px;
+  font-size: 2.6rem;
+  letter-spacing: 4px;
   }
 }
 
