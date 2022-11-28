@@ -28,13 +28,3 @@
                 panel.classList.remove('active')
             })
         }
-
-
-        // dark mode background
-        const darkToggle = document.querySelector('#darkMode');
-        darkToggle.addEventListener('click', ()=> {
-
-         document.querySelector("#night").classList.add('dark-mode');
-  
-      
-        });
