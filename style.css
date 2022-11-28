@@ -30,11 +30,40 @@ h2, p {
     color: #fff;
 }
 
+h1 {
+  color: white;
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: letterspacing 10s infinite cubic-bezier(.2, 0, 0, 1);
+  display: block;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes letterspacing {
+  0% {
+    letter-spacing: -5rem;
+    filter: blur(10rem);
+  }
+  50% {
+    filter: blur(0rem);
+  }
+  75% {
+    filter: blur(0rem);
+  }
+  100% {
+    letter-spacing: 1rem;
+    filter: blur(10rem);
+  }
+}
+
 .container-span {
   font-weight: 200;
   letter-spacing: 0;
   text-align: center;
-  margin-top: -120px;
+  margin-top: -150px;
 
 }
 
