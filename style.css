@@ -150,6 +150,8 @@ section #text span {
 
 .intro {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro-text, 
@@ -208,6 +210,7 @@ footer {
     display: flex;
     margin-top: 40px;
     margin-left: -10px;
+
   }
 
 .container h3 {
@@ -225,7 +228,7 @@ footer {
     color: #fff;
     cursor: pointer;
     flex: 0.4;
-    margin: 10px;
+    margin: 5px;
     position: relative;
     -webkit-transition: all 800ms ease-in;
    
@@ -712,3 +715,60 @@ footer {
     transition: all 1s var(--cbz) 0s;
   }
   
+  @media only screen and (max-width: 768px)  {
+
+    html, body {
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .sec {
+overflow: hidden;
+padding: 20px;
+  }
+
+  .intro-text{
+    width: 700px;
+    margin: auto;
+  }
+
+  iframe{
+    display: none;
+  }
+
+  .panel {
+    height: 400px;
+  }
+
+  .container{
+    margin-left: -20px;
+    padding: 0 12px;
+  }
+
+  .container span {
+    font-size: 1rem;
+  }
+
+  .videos {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  video{
+    width: 100%;
+  }
+
+  .contatti p {
+font-size: 0.7rem;
+margin-top: 0px;
+line-height: 23px;
+  }
+
+  .contatti div img {
+width: 45px;
+  }
+
+  }
