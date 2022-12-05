@@ -235,11 +235,12 @@ footer {
   }
 
   .panel h3 {
-    font-size: 24px;
+    font-size: 30px;
     position: absolute;
     top: 20px;
     margin: 0;
     opacity: 0;
+    text-shadow: 2px 2px 2px black;
   }
 
   .panel.active h3 {
@@ -252,6 +253,11 @@ footer {
   .panel.active {
     flex: 3;
 
+  }
+
+  .panel span {
+    line-height: 40px;
+    font-size: 1.5rem;
   }
 
   .natura {
@@ -767,8 +773,22 @@ margin-top: 0px;
 line-height: 23px;
   }
 
+  .contatti div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 10px;
+    
+      }
+
   .contatti div img {
-width: 45px;
+width: 30px;
+
+  }
+
+  .panel span {
+    line-height: 0px;
+    font-size: 0.8rem;
   }
 
   }
